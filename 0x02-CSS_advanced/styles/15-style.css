@@ -4,10 +4,6 @@ html {
     -webkit-text-size-adjust: 100%
 }
 
-* {
-    box-sizing: border-box;
-}
-
 body {
     margin: 0
 }
@@ -184,6 +180,12 @@ template {
 }
 
 /*# sourceMappingURL=normalize.min.css.map */
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
 
 html {
     scroll-behavior: smooth;
