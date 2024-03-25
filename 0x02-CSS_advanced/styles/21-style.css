@@ -1,4 +1,4 @@
-/* Dark theme to sections */
+/* Simplify the col- selector */
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
@@ -488,12 +488,6 @@
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
     margin: var(--section-tagline-margin);
-  }
-  
-  [data-section-theme="dark"] {
-    --text-color: var(--color-white);
-    --section-title-color: var(--color-white);
-    background-color: var(--color-black);
   }
   
   .container {
