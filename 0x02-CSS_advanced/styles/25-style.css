@@ -1,4 +1,4 @@
-/* Dark theme to sections */
+/* Add border to the button */
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
@@ -411,7 +411,7 @@
     --nav-item-display: inline-block;
     --nav-item-margin: 0 0 3rem 0;
     --nav-item-link-hover: var(--color-primary);
-
+  
     --button-display: inline-block;
     --button-padding: 1.5rem 3rem;
     --button-border: 0.2rem solid var(--color-primary);
@@ -457,7 +457,7 @@
   a:active {
     background-color: var(--color-light-grey);
   }
-
+  
   .button {
     display: var(--button-display);
     padding: var(--button-padding);
@@ -466,35 +466,15 @@
     color: var(--button-color);
     text-decoration: var(--button-text-decoration);
   }
-
+  
   .button:hover {
     color: var(--button-hover-color);
     text-decoration: var(--button-hover-text-decoration);
-    background-color: var(--button-background);
+    background-color: var(--button-hover-background);
   }
   
   .visually-hidden {
     display: none;
-  }
-  
-  .card-category {
-    color: var(--color-primary);
-  }
-
- .card-services .card-title {
-    margin: 0;
-  }
-
-  .card-services a {
-    display: block;
-    padding: 2rem;
-    background-color: var(--color-light-grey);
-  }
-
-  .card-services a:hover {
-    color: var(--color-white);
-    background-color: var(--color-primary);
-    text-decoration: none;
   }
   
   .section {
@@ -611,15 +591,35 @@
   .footer ul {
     text-align: right;
   }
-
+  
   .footer-address {
     color: var(--text-color);
   }
-
+  
   .social-link {
     display: block;
   }
-
+  
   .social-link > svg {
     fill: var(--text-color);
+  }
+  
+  .card-category {
+    color: var(--color-primary);
+  }
+  
+  .card-services .card-title {
+    margin: 0;
+  }
+  
+  .card-services a {
+    display: block;
+    padding: 2rem;
+    background-color: var(--color-light-grey);
+  }
+  
+  .card-services a:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    text-decoration: none;
   }
