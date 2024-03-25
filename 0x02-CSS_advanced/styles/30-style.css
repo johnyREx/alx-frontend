@@ -1,4 +1,4 @@
-/* task 29 */
+/* task 30 */
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
@@ -677,18 +677,19 @@ html {
         top: var(--header-logo-link-top);
         left: var(--header-logo-link-left);
     }
-
+    
     .card-work .card-outer {
         position: relative;
         overflow: hidden;
     }
-
+    
     .card-work .card-image img {
         height: 30rem;
-        width: 100;
+        width: 100%;
+        object-fit: cover;
         vertical-align: bottom;
     }
-
+    
     .card-work .card-inner {
         position: absolute;
         top: -0.1rem;
@@ -696,11 +697,11 @@ html {
         right: -0.1rem;
         z-index: 1;
     }
-
+    
     .card-work:hover .card-inner {
-        background-color: rgba(0, 0, 0, 7);
+        background-color: rgba(0, 0, 0, 0.7);
     }
-
+    
     .card-work .card-title {
         text-align: center;
         margin: 0;
@@ -708,7 +709,7 @@ html {
         height: 100%;
         position: relative;
     }
-
+    
     .card-work .card-title a {
         display: block;
         text-decoration: none;
